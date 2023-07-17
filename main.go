@@ -11,3 +11,7 @@ var randomBytes []byte
 func Useless() {
 	fmt.Printf("do not use me, i just have %d bytes additionally embedded \n", len(randomBytes))
 }
+
+func ABitLessUseless() {
+	fmt.Println("i am a bit less useless")
+}
